@@ -10,7 +10,7 @@ import CreateContacts from './components/CreateContact'
 
 class App extends Component {
   state = {
-    contacts: []
+    contacts: [],
   }
 
   removeContact = (contact) => {
